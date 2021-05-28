@@ -93,7 +93,11 @@ ul > li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1em;
+  padding: 3em 1em;
+}
+
+.pageSection > h2 {
+  margin: 3em 0;
 }
 
 .altBgColor {
@@ -165,13 +169,10 @@ ul > li {
 }
 
 /* Experience */
-
-.Experience h2 {
-  margin-bottom: 3em;
-}
+/*TODO Add that border button animation on hover  */
 
 .jobList > li {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .job {
@@ -180,7 +181,7 @@ ul > li {
 }
 
 .jobHeader {
-  margin-bottom: 0.7em;
+  margin-bottom: 1em;
 }
 
 .jobTitleWrapper {
@@ -194,7 +195,7 @@ ul > li {
   margin-bottom: 0.5em;
 }
 
-/*TODO Add that border button animation on hover  */
+/* Open-Source */
 
 /* Footer */
 
