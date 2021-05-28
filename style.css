@@ -1,0 +1,220 @@
+:root {
+  --color1: #14274e;
+  --color2: #394867;
+  --color3: #004a7c;
+  --color4: #f1f6f9;
+  --linkColor: #14ffec;
+  --linkHoverColor: #fcbf1e;
+  --lightTextColor: rgba(255, 255, 255, 0.8);
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  line-height: 1.4;
+  background-color: var(--color1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--color4);
+  font-size: clamp(16px, 1vw, 20px);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(32px, 2vw, 40px);
+}
+
+h2 {
+  font-size: clamp(24px, 1.5vw, 28px);
+}
+
+h3 {
+  font-size: clamp(18.72px, 1.2vw, 22.72px);
+}
+
+h4 {
+  font-size: clamp(16px, 1vw, 20px);
+}
+
+/* h5, h6 not supported because they aren't used */
+
+a {
+  color: var(--color4);
+  text-decoration: none;
+}
+
+p a {
+  color: var(--linkColor);
+}
+
+a:hover {
+  color: var(--linkHoverColor);
+}
+
+ul > li {
+  list-style: none;
+}
+
+/* Global classes */
+
+.globalWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageSection {
+  width: 100%;
+  height: max(100vh, 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.altBgColor {
+  background-color: var(--color3);
+}
+
+/* Navbar */
+
+.navBar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--color1);
+  /* color: var(--color4); */
+}
+
+.navBar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navBar li {
+  margin: 0.5em;
+}
+
+.navHeading {
+  margin: 0.5em;
+  font-size: clamp(24px, 1.5vw, 28px);
+}
+
+@media (max-width: 650px) {
+  .navBar {
+    position: relative;
+    justify-content: center;
+  }
+
+  .navBar > ul {
+    width: 100%;
+  }
+}
+
+/* Homepage */
+
+.dropCapWord {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: clamp(204px, 13vw, 240px);
+}
+
+.bio {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.Header {
+  margin-bottom: 0.3em;
+}
+
+/* Experience */
+
+.Experience h2 {
+  margin-bottom: 3em;
+}
+
+.jobList > li {
+  margin-bottom: 1em;
+}
+
+.job {
+  width: 100%;
+  max-width: 800px;
+}
+
+.jobHeader {
+  margin-bottom: 0.7em;
+}
+
+.jobTitleWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobDesc > li {
+  margin-bottom: 0.5em;
+}
+
+/*TODO Add that border button animation on hover  */
+
+/* Footer */
+
+.Footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.Footer hr {
+  width: 100%;
+  height: 0.4em;
+  margin-bottom: 1em;
+  border: none;
+  background-color: var(--color4);
+}
+
+.footerContentList li {
+  margin-bottom: 0.5em;
+}
