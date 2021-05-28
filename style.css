@@ -98,6 +98,8 @@ ul > li {
 
 .pageSection > h2 {
   margin: 3em 0;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
 }
 
 @media (max-width: 500px) {
@@ -223,6 +225,9 @@ ul > li {
 }
 
 /* Contact */
+.Contact h2 {
+  text-decoration: unset;
+}
 .contactList {
   display: flex;
   flex-direction: row;
