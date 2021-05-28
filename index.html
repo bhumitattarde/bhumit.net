@@ -39,11 +39,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:wght@500;700&display=swap"
         rel="stylesheet" crossorigin="anonymous">
+
+    <!--FIXME import only used icons  -->
+    <link href="./static/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--TODO Add header, main, footer tags  -->
+    <!--TODO Add 404 page  -->
+    <!--TODO Make navbar fixed on mobile screens too. Make the links scrollable on X-axis if they're more than one row  -->
+    <!--TODO Make site compatible with smaller screens  -->
     <div class="globalWrapper">
         <!-- page owner -->
 
@@ -58,9 +65,6 @@
                 </li>
                 <li>
                     <a href="#Open-Source">Open-Source</a>
-                </li>
-                <li>
-                    <a href="#Skills">Skills</a>
                 </li>
                 <li>
                     <a href="#Blog">Blog</a>
@@ -217,28 +221,83 @@
         </div>
 
         <div id="Projects" class="pageSection altBgColor">
+            <h2>Projects</h2>
+            <ul class="projectList">
+                <li>
+                    <div class="project">
+                        <h3>WhatsChart</h3>
+                        <p>Free and open-source chat analyzer + visualizer for WhatsApp that lets you create
+                            customizable
+                            visualizations with a single click.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <h3>blog.bhumit.net</h3>
+                        <p>Minimal and SEO optimized blog site with markdown support.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <h3>bhumit.net</h3>
+                        <p>Minimal & lightweight personal site written in pure HTML/CSS.</p>
+                    </div>
+                </li>
+            </ul>
+
         </div>
 
         <div id="Contact" class="pageSection">
+            <h2>Contact me!</h2>
+            <ul class="contactList">
+                <li>
+                    <h3>
+                        <i class="fab fa-facebook-square"></i>
+                        <a href="">Facebook</a>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        <i class="fab fa-github"></i>
+                        <a href="">GitHub</a>
+                    </h3>
+
+                </li>
+                <li>
+                    <h3>
+                        <i class="fab fa-twitter"></i>
+                        <a href="">Twitter</a>
+                    </h3>
+
+                </li>
+                <li>
+                    <h3>
+                        <i class="fas fa-at"></i>
+                        <a href="">Send a mail</a>
+                    </h3>
+
+                </li>
+                <li>
+                    <h3>
+                        <i class="fas fa-user"></i>
+                        <a href="">Call me</a>
+                    </h3>
+
+                </li>
+            </ul>
         </div>
 
-        <!-- copyright -->
+        <!-- Footer -->
         <footer class="Footer">
             <hr />
             <ul class="footerContentList">
                 <li>
-                    Made with &hearts;
+                    <i class="fas fa-code"></i> with &hearts; by
                     <a href="https://www.bhumit.net">Bhumit Attarde</a>
                 </li>
                 <li>&copy; 2021 Bhumit Attarde. All rights reserved.</li>
             </ul>
         </footer>
-        <!-- <div class="copyright">
-            <span itemprop="copyrightYear">YEAR</span>
-            <div itemprop="copyrightHolder" itemscope itemtype="https://schema.org/Organization">
-                <p itemprop="legalName">COPYRIGHT HOLDER</p>
-            </div>
-        </div> -->
     </div>
 </body>
 
