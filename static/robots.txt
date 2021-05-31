@@ -1,1 +1,2 @@
-TODO add a valid file
+User-agent: *
+Disallow:

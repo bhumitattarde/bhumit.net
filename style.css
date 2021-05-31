@@ -180,6 +180,10 @@ ul > li {
   margin-bottom: 0.3em;
 }
 
+.summary > p {
+  margin-bottom: 0.5em;
+}
+
 /* Experience */
 
 .jobList > li {
@@ -204,6 +208,7 @@ ul > li {
 
 .jobDesc > li {
   margin-bottom: 0.5em;
+  /* list-style: unset; */
 }
 
 /* animation */
@@ -241,12 +246,16 @@ ul > li {
 }
 
 .contactList > li {
-  margin: 1em;
+  margin: 2em;
   transition: transform 0.3s ease-out;
 }
 
 .contactList > li:hover {
   transform: translateY(1em);
+}
+
+.contactList i {
+  margin-right: 0.3em;
 }
 
 @media (max-width: 500px) {
