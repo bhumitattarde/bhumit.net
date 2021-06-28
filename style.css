@@ -273,6 +273,7 @@ ul > li {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  font-size: clamp(14px, 1vw, 16px);
 }
 
 .Footer hr {
