@@ -30,17 +30,11 @@
 
     <!-- Fonts and icons -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:wght@500;700&display=swap"
-        rel="stylesheet" crossorigin="anonymous"> -->
     <!--Preloads the GFonts  -->
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:wght@500;700&display=swap"
         rel="preload" as="style" onload="this.rel='stylesheet'">
 
-    <!-- <link href="./icons/fontawesome-free-5.15.3-web/css/fontawesome.css" rel="stylesheet">
-    <link href="./icons/fontawesome-free-5.15.3-web/css/brands.css" rel="stylesheet">
-    <link href="./icons/fontawesome-free-5.15.3-web/css/solid.css" rel="stylesheet"> -->
     <!-- Helps with loading speeds by loading FA after page has rendered (Which is okay for this site since icons are required only in contact section)
         and contact section is the last section.-->
     <script type="text/javascript">
@@ -103,18 +97,14 @@
                 </div>
                 <div class="summary">
                     <p>
-                        I’m a junior year engineering student. I
-                        have varying interests
-                        that range from algorithmic trading and FinTech to full-stack web development. I’m a staunch
-                        advocate of open-source software and FOSS philosophy. I’ve traded
-                        Indian equity markets for a brief period of time and love leveraging technology to generate
-                        alpha.
+                        I’m a senior year engineering student. I have varying interests that range from algorithmic
+                        trading, FinTech, high-performance computing and databses to
+                        full-stack web development.
                     </p>
                     <p>
-                        I try to keep myself updated with national and international affairs (particularly related to
-                        finance) in my free time. When I’m not coding or going through latest geopolitical, financial
-                        news, I can be found coming up with better strategies to trade leveraged equity shares
-                        listed in India.
+                        I’m a staunch advocate of open-source software and FOSS philosophy.
+                        I have briefly traded Indian equity markets. I try to keep myself updated with national and
+                        international affairs (particularly related to finance) in my free time.
                     </p>
                 </div>
             </div>
@@ -123,21 +113,96 @@
         <div id="Experience" class="pageSection altBgColor Experience">
             <h2>Experience</h2>
             <ul class="jobList">
-                
+
                 <li>
                     <div class="job">
                         <div class="jobHeader">
-                            <h3>smallcase</h3>
+                            <h3><a href="https://www.smallcase.com">smallcase</a></h3>
                             <div class="jobTitleWrapper">
-                                <h4>Software Engineer, Intern</h4>
-                                <h4>June 2021 - Present</h4>
+                                <h4>Software Engineer</h4>
+                                <h4>Jan 2022 - Present</h4>
                             </div>
+                            <p class="companyDesc">
+                                smallcase is a wealth management startup that focuses on equitable investing in India.
+                                Valued ~$400M in 2022.
+                            </p>
                         </div>
                         <ul class="jobDesc">
                             <li>
                                 Owned, maintained and improved an important internal framework used for mocking broker
                                 APIs.
                             </li>
+                            <li>
+                                Integrated new broker APIs in record time.
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="job">
+                        <div class="jobHeader">
+                            <h3><a href="https://developers.google.com/season-of-docs">Google Season of Docs</a></h3>
+                            <div class="jobTitleWrapper">
+                                <h4>Technical Writer</h4>
+                                <h4>May 2022 - Present</h4>
+                            </div>
+                            <p class="companyDesc">
+                                Google Season of Docs is an international program in which Google sponsers technical
+                                writers to improve documentation of FOSS projects.
+                            </p>
+                        </div>
+                        <ul class="jobDesc">
+                            <li>
+                                Documented thousands of lines of cutting-edge, template-heavy C++ code.
+                            </li>
+                            <li>
+                                Verified, fixed and improved existing documentation.
+                            </li>
+                            <li>
+                                Resolved critical bugs in documentation build system.
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="job">
+                        <div class="jobHeader">
+                            <h3><a href="https://www.sfu.ca/">Simon Fraser University</a></h3>
+                            <div class="jobTitleWrapper">
+                                <h4>Mitacs Research Intern</h4>
+                                <h4>Jun 2022 - Aug 2022</h4>
+                            </div>
+                            <p class="companyDesc">
+                                Mitacs Globalink Research Internship is a highly competitive research programme for
+                                university students. Simon Fraser University is a public research university in Canada.
+                                Database research at SFU is ranked 2nd in Canada and top 15 in North America.
+                            </p>
+                        </div>
+                        <ul class="jobDesc">
+                            <li>
+                                Overhauled threading model of a benchmarking framework to remove external dependencies.
+                            </li>
+                            <li>
+                                Contributed towards implementing a query parser on top of corobase -- A modern,
+                                main-memory database engine.
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="job">
+                        <div class="jobHeader">
+                            <h3><a href="https://www.smallcase.com">smallcase</a></h3>
+                            <div class="jobTitleWrapper">
+                                <h4>Software Engineer, Intern</h4>
+                                <h4>Jun 2021 - Dec 2021</h4>
+                            </div>
+                            <p class="companyDesc">
+                                smallcase is a wealth management startup that focuses on equitable investing in India.
+                                Valued ~$400M in 2022.
+                            </p>
+                        </div>
+                        <ul class="jobDesc">
                             <li>
                                 Optimized database queries made by micro-services improving performance by more than
                                 40%.
@@ -158,18 +223,22 @@
                 <li>
                     <div class="job">
                         <div class="jobHeader">
-                            <h3>Google Summer of Code at KDE</h3>
+                            <h3><a href="https://summerofcode.withgoogle.com/">Google Summer of Code at KDE</a></h3>
                             <div class="jobTitleWrapper">
                                 <h4>Student Software Developer</h4>
-                                <h4>May 2021 - Present</h4>
+                                <h4>May 2021 - Aug 2021</h4>
                             </div>
+                            <p class="companyDesc">
+                                Google Summer of Code is an international program in which Google awards stipends to
+                                contributors who successfully complete a FOSS coding project during the summer.
+                            </p>
                         </div>
                         <ul class="jobDesc">
                             <li>
                                 Patched XFSTESTS file system regression testing suite to support FUSE.
                             </li>
                             <li>
-                                Integrating XFSTESTS file system regression testing suite with KDE KIO-FUSE in
+                                Integrated XFSTESTS file system regression testing suite with KDE KIO-FUSE in
                                 anticipation of detecting stealthy bugs.
                             </li>
                         </ul>
@@ -178,15 +247,18 @@
                 <li>
                     <div class="job">
                         <div class="jobHeader">
-                            <h3>Zerodha</h3>
+                            <h3><a href="https://zerodha.com/">Zerodha</a></h3>
                             <div class="jobTitleWrapper">
-                                <h4>SDK Maintainer </h4>
+                                <h4>Maintainer </h4>
                                 <h4>Mar 2021 – Present</h4>
                             </div>
+                            <p class="companyDesc">
+                                Zerodha is the largest stock broker in India with an unique and exceptional tech team.
+                            </p>
                         </div>
                         <ul class="jobDesc">
                             <li>
-                                Sole maintainer of Zerodha’s CPPKiteConnect trading SDK.
+                                Maintainer of Zerodha’s CPPKiteConnect trading SDK.
                             </li>
                         </ul>
                     </div>
@@ -194,22 +266,19 @@
                 <li>
                     <div class="job">
                         <div class="jobHeader">
-                            <h3>Zerodha</h3>
+                            <h3><a href="https://zerodha.com/">Zerodha</a></h3>
                             <div class="jobTitleWrapper">
                                 <h4>Software Engineer, Intern </h4>
                                 <h4>Nov 2020 – Feb 2021</h4>
                             </div>
+                            <p class="companyDesc">
+                                Zerodha is the largest stock broker in India with an unique and exceptional tech team.
+                            </p>
                         </div>
                         <ul class="jobDesc">
                             <li>
                                 Built a C++ algorithmic trading SDK consisting of a REST client and a multi-threaded
-                                WebSocket client that parses and processes received binary market data.
-                            </li>
-                            <li>
-                                Directly coordinated with the CTO and his team throughout the development period.
-                            </li>
-                            <li>
-                                Provided technical support to users of CPPKiteConnect SDK.
+                                WebSocket client that processes received binary market data.
                             </li>
                         </ul>
                     </div>
@@ -217,28 +286,33 @@
                 <li>
                     <div class="job">
                         <div class="jobHeader">
-                            <h3>KDE</h3>
+                            <h3><a href="https://kde.org/">KDE</a></h3>
                             <div class="jobTitleWrapper">
                                 <h4>Open-Source Developer </h4>
                                 <h4>Nov 2020 – Present</h4>
                             </div>
+                            <p class="companyDesc">
+                                KDE is a 25 years old international software community that develops FOSS.
+                            </p>
                         </div>
                         <ul class="jobDesc">
+                            <i>
+                                (KIO-FUSE)
+                            </i>
+                            <br>
+                            <br>
                             <li>
-                                <b>
-                                    KIO-FUSE
-                                </b>
                                 <ul>
                                     <li>
-                                        Implemented crucial functions like opendir, closedir and readdir along with unit
-                                        testing.
+                                        Implemented crucial functions like opendir, closedir and readdir.
                                     </li>
 
                                     <li> Improved unit testing by adding support to skip certain failing tests in the
                                         absence of tar protocol.
                                     </li>
                                     <li>
-                                        Integrated KDE clang-format ECM, gitcommithooks with build system of KIO-FUSE.
+                                        Integrated KDE clang-format ECM and git commit hooks with the build system of
+                                        KIO-FUSE.
                                     </li>
                                     <li>
                                         Documented install commands for multiple Linux distributions.
@@ -257,7 +331,7 @@
                 <li>
                     <div class="project">
                         <h3><a href="https://whatschart.bhumit.net">WhatsChart</a></h3>
-                        <p>React webapp that let’s you create customizable data visualizations of WhatsApp chats with
+                        <p>WhatsApp let’s you create customizable data visualizations of WhatsApp chats with
                             a single click.
                         </p>
                     </div>
@@ -313,7 +387,7 @@
                     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
                     <a href="https://www.bhumit.net">Bhumit Attarde</a>
                 </li>
-                <li>&copy; 2021 Bhumit Attarde. All rights reserved.</li>
+                <li>&copy; 2022 Bhumit Attarde. All rights reserved.</li>
             </ul>
         </footer>
     </div>
