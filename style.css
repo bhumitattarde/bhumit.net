@@ -206,14 +206,16 @@ ul > li {
   align-items: center;
 }
 
-.jobDesc > li {
-  margin-bottom: 0.5em;
-  /* list-style: unset; */
+.companyDesc{
+  margin:0.3em 0 0.3em 0;
+  font-size: clamp(14px, 0.9vw, 18px);
+  font-style: italic;
 }
 
-/* animation */
-
-/* Open-Source */
+.jobDesc li {
+  margin-bottom: 0.5em;
+  list-style: circle;
+}
 
 /* Projects */
 .projectList > li {
