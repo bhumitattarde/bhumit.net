@@ -243,17 +243,8 @@ ul > li {
   flex-wrap: wrap;
 }
 
-.contactList a:hover {
-  color: unset;
-}
-
 .contactList > li {
   margin: 2em;
-  transition: transform 0.3s ease-out;
-}
-
-.contactList > li:hover {
-  transform: translateY(1em);
 }
 
 .contactList i {
